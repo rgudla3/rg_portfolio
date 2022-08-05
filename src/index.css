@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+  
+  --color-bg: #2F3538;
+  --navbar-text: white;
+}
