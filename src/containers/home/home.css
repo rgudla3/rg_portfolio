@@ -1,0 +1,84 @@
+.hi-there {
+    position: absolute;
+    left: 10rem;
+    top: 350px;
+
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+
+
+    color: #FB9AA1;
+
+}
+
+.fairy-lights {
+    width: 1em;
+    transform: rotate(-10deg);
+}
+
+.welcome-msg {
+
+    position: absolute;
+    left: 10rem;
+    top: 437.5px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+
+    color: #BACD8A;
+}
+
+.line-separater {
+    position: absolute;
+    width: 170px;
+    height: 0px;
+    left: 10rem;
+    top: 510px;
+
+    border: 1px dashed #C7DEF6;
+
+   }
+
+.linkedin {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 154px;
+    top: 550px;
+   }
+
+.github {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 242px;
+    top: 550px;
+}
+
+
+.email {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 330px;
+    top: 550px;
+
+}
+
+.reshma-intro-pic img {
+    position: absolute;
+    width: 432px;
+    height: 422px;
+    left: 810px;
+    top: 250px;
+
+    border-radius: 65px;
+    }

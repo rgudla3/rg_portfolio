@@ -1,6 +1,6 @@
 import React from 'react'
 import { Body, NavBar} from './components';
-import { About, Experience, Skills, Projects } from './containers';
+import {About, Experience, Home, Skills, Projects } from './containers';
 import './App.css';
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
         <div className="menu__bg">
           <NavBar />
         </div>
+        <Home />
     </div>
   )
 }
