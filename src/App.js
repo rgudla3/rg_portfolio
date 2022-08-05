@@ -9,11 +9,6 @@ const App = () => {
         <div className="menu__bg">
           <NavBar />
         </div>
-        <Body />
-        <About />
-        <Experience />
-        <Skills />
-        <Projects />
     </div>
   )
 }
