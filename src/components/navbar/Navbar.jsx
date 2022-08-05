@@ -4,7 +4,7 @@ import './navbar.css';
 
 const Menu = () => (
   <>
-    <p><a href="#about">About</a></p>
+    <p><a href="#about">About Me</a></p>
     <p><a href="#experience">Experience</a></p>
     <p><a href="#projects">Projects</a></p>
     <p><a href="#skills">Skills</a></p>
