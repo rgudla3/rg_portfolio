@@ -15,7 +15,7 @@ const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="reshma__navbar">
+    <div className="reshma__navbar scale-up-ver-center">
       <div className="reshma__navbar-links">
         <div className="reshma__navbar-links_home">
           <p><a href="#home">Reshma Gudla</a></p>
@@ -30,7 +30,7 @@ const NavBar = () => {
             : <RiMenu3Line color="#C7DEF6" size={32} onClick={() => setToggleMenu(true)} />
             }
             {toggleMenu && (
-              <div className="reshma__navbar-menu_container scale-up-center"> 
+              <div className="reshma__navbar-menu_container scale-up-ver-center"> 
                 <div className="reshma__navbar-menu_container-links"> 
                   <Menu />
                 </div>
