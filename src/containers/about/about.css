@@ -1,0 +1,150 @@
+.reshma__about {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20rem;
+}
+
+.reshma__about-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 0rem;
+}
+
+.reshma__about-header {
+    margin-top: 2rem;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+
+    color: #BACD8A;
+}
+
+.reshma__about-blurb {
+    padding-top: 1rem;
+    font-family: 'Outfit';
+    
+    font-size: 24px;
+    line-height: 30px;
+    padding-right: 5rem;
+    float: right;
+    font-weight: 100;
+
+    color: #FFFFFF;
+}
+
+.reshma__about-blurb p {
+    padding-bottom: 30px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.reshma__about-blurb em {
+    color: #FB9AA1;
+    font-style: normal;
+}
+
+.reshma-gt-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 65px;
+    }
+
+.reshma-gt-pic img {
+    margin-top: 70px;
+    width: 65%;
+    }
+
+@media screen and (max-width: 1270px) {
+    .reshma__about-blurb p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .reshma__about-header {
+        font-size: 54px;
+    }
+    .reshma__about-blurb p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .reshma__about-header {
+        font-size: 48px;
+    }
+    .reshma__about-blurb p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reshma__about-header {
+        font-size: 32px;
+    }
+    .reshma__about-blurb {
+        padding-right: 2.5rem;
+    }
+
+    .reshma__about-blurb p {
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reshma__about-header {
+        font-size: 32px;
+    }
+    .reshma__about-blurb {
+        padding-right: 2.5rem;
+    }
+
+    .reshma__about-blurb p {
+        font-size: 10px;
+        line-height: 12px;
+        padding-bottom: 12px;
+    }
+
+    .reshma-gt-pic img {
+        margin-top: 60px;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .reshma__about-header {
+        font-size: 32px;
+    }
+    .reshma__about-blurb {
+        padding-right: 2.5rem;
+    }
+
+    .reshma__about-blurb p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .reshma-gt-pic img {
+        margin-top: 60px;
+        width: 65%;
+    }
+}
