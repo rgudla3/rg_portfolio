@@ -1,12 +1,26 @@
+.home__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.home__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 0rem;
+}
+
 .hi-there {
-    position: absolute;
-    left: 10rem;
-    top: 350px;
+    position: flex;
+    padding-left: 10rem;
 
     font-family: 'Dancing Script';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 60px;
     line-height: 77px;
 
 
@@ -15,15 +29,18 @@
 }
 
 .fairy-lights {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     width: 1em;
     transform: rotate(-10deg);
 }
 
 .welcome-msg {
 
-    position: absolute;
-    left: 10rem;
-    top: 437.5px;
+    position: flex;
+    padding-left: 10rem;
 
     font-family: 'Outfit';
     font-style: normal;
@@ -36,49 +53,303 @@
     color: #BACD8A;
 }
 
-.line-separater {
-    position: absolute;
-    width: 170px;
-    height: 0px;
-    left: 10rem;
-    top: 510px;
-
-    border: 1px dashed #C7DEF6;
-
-   }
-
-.linkedin {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 154px;
-    top: 550px;
-   }
-
-.github {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 242px;
-    top: 550px;
+.contact {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10rem;
+    gap: 30px;
+    position: flex;
 }
 
-
-.email {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 330px;
-    top: 550px;
-
-}
-
-.reshma-intro-pic img {
-    position: absolute;
-    width: 432px;
-    height: 422px;
-    left: 810px;
-    top: 250px;
-
+.reshma-intro-pic {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 65px;
     }
+
+.reshma-intro-pic img {
+    margin-top: 70px;
+    width: 75%;
+    }
+
+@media screen and (max-width: 1270px) {
+    .fairy-lights img {
+        width: 30rem;
+    }
+    .home__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+        padding-left: 10rem;
+    }
+
+    .home__header h2 {
+        font-size: 32px;
+        line-height: 48px;
+        padding-left: 10rem;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .home__header {
+        flex-direction: row;
+    }
+
+    .home__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+        padding-left: 5rem;
+    }
+
+    .home__header h2 {
+        font-size: 24px;
+        line-height: 32px;
+        padding-left: 5rem;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .fairy-lights img {
+        width: 25rem;
+    }
+
+    .reshma-intro-pic {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 65px;
+        }
+    .contact {
+        padding-left: 5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .home__header h1 {
+        font-size: 32px;
+        line-height: 40px;
+        padding-left: 5rem;
+    }
+
+    .fairy-lights img {
+        width: 20rem;
+    }
+
+    .home__header h2 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 5rem;
+    }
+
+    .contact {
+        gap: 10px;
+    }
+
+    .linkedin img {
+        height: 36px;
+    }
+
+    .github img {
+        height: 38px;
+    }
+
+    .email img {
+        height: 36px;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .reshma-intro-pic img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .home__header h1 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-left: 5rem;
+    }
+
+    .fairy-lights img {
+        width: 15rem;
+    }
+
+    .home__header h2 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 5rem;
+    }
+
+    .contact {
+        gap: 10px;
+    }
+
+    .linkedin img {
+        height: 30px;
+    }
+
+    .github img {
+        height: 30px;
+    }
+
+    .email img {
+        height: 30px;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .reshma-intro-pic img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .home__header h1 {
+        font-size: 20px;
+        line-height: 40px;
+        padding-left: 2.5rem;
+    }
+
+    .fairy-lights img {
+        display: none;
+    }
+
+    .home__header h2 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 2.5rem;
+    }
+
+    .contact {
+        gap: 10px;
+        padding-left: 2.5rem;
+    }
+
+    .linkedin img {
+        height: 30px;
+    }
+
+    .github img {
+        height: 30px;
+    }
+
+    .email img {
+        height: 30px;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .reshma-intro-pic img {
+        width: 75%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home__header h1 {
+        font-size: 17px;
+        line-height: 20px;
+        padding-left: 2.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .fairy-lights img {
+        display: none;
+    }
+
+    .home__header h2 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-left: 2.5rem;
+    }
+
+    .contact {
+        gap: 10px;
+        padding-left: 2.5rem;
+    }
+
+    .linkedin img {
+        height: 24px;
+    }
+
+    .github img {
+        height: 24px;
+    }
+
+    .email img {
+        height: 24px;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .reshma-intro-pic img {
+        width: 75%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .home__header h1 {
+        font-size: 17px;
+        line-height: 20px;
+        padding-left: 1.5rem;
+    }
+
+    .fairy-lights img {
+        display: none;
+    }
+
+    .home__header h2 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-left: 1.5rem;
+    }
+
+    .contact {
+        gap: 10px;
+        padding-left: 1.5rem;
+    }
+
+    .linkedin img {
+        height: 20px;
+    }
+
+    .github img {
+        height: 20px;
+    }
+
+    .email img {
+        height: 20px;
+    }
+
+    .home__header-content {
+        margin: 0 0 3rem;
+    }
+
+    .reshma-intro-pic img {
+        width: 75%;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+}
