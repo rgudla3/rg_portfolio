@@ -1,0 +1,187 @@
+.reshma__skills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.reshma__skills-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-right: 10rem;
+    padding-left: 10rem;
+}
+
+.reshma__skills-content a {
+    color: #C7DEF6;
+    text-decoration-line: underline;
+}
+
+.reshma__skills-header {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #C7DEF6;
+}
+
+.reshma__skills-content h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    align-items: center;
+
+    color: #BACD8A;
+}
+
+.reshma__skills-content h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+
+    color: #FB9AA1;
+
+}
+
+.reshma__skills-content p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1270px) {
+
+    .reshma__skills-content p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .reshma__skills-content {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .reshma__skills-header {
+        font-size: 56px;
+    }
+
+    .reshma__skills-content h2 {
+        font-size: 28px;
+    }
+
+    .reshma__skills-content h3 {
+        font-size: 22px;
+    }
+
+    .reshma__skills-content p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .reshma__skills-content h2 {
+        font-size: 24px;
+    }
+
+    .reshma__skills-content h3 {
+        font-size: 20px;
+    }
+
+    .reshma__skills-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .reshma__skills-header {
+        font-size: 32px;
+    }
+
+    .reshma__skills-content h2 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .reshma__skills-content h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .reshma__skills-content p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .reshma__skills-content h2 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .reshma__skills-content h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .reshma__skills-content p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+
+    .reshma__skills-content {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .reshma__skills-content h2 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .reshma__skills-content h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .reshma__skills-content p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
